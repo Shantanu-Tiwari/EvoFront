@@ -1,22 +1,30 @@
-🧬 Biotech AI Variant Analysis Tool – Full-Stack AI Platform for Genomic Research
-Overview:
-Developed and deployed a full-stack biotech AI platform that predicts the pathogenicity of single nucleotide variants (SNVs) using state-of-the-art deep learning (Evo 2). This web application empowers researchers and clinicians to assess the clinical relevance of genetic mutations through a seamless, intuitive interface.
+🧬 Biotech AI Variant Analysis Tool
+A full-stack AI-powered web application for predicting the pathogenicity of genetic variants using Evo 2, a state-of-the-art language model trained on genomic data.
 
-💡 Key Highlights
-🔍 Variant Effect Prediction
-Integrated Evo 2, a cutting-edge AI model trained on human genome data, to evaluate whether specific genetic mutations are likely benign or disease-causing.
+This project bridges modern AI with bioinformatics to assist researchers, clinicians, and bioengineers in rapidly evaluating single nucleotide variants (SNVs) for potential disease relevance.
 
-🧠 AI for Genomic Medicine
-Translates raw genomic variant data into actionable insights, helping support precision medicine, diagnostics, and gene therapy research.
+🚀 Features
+🔬 Variant Pathogenicity Prediction
+Leverages the Evo 2 deep learning model to assess the functional impact of genomic mutations in real time.
 
-🌐 End-to-End Web Application
+🧠 AI-Powered Genomics
+Applies cutting-edge large language models to human genetic data for clinical and research applications.
 
-Frontend: Built with Next.js 15, React, and TypeScript, styled using Tailwind CSS and enhanced with Modal UI for fast, responsive interaction.
+🌐 Full-Stack Architecture
 
-Backend: Python-based FastAPI service running Evo 2 model inference on GPU (via Modal Labs) for scalable bio-AI computation.
+Frontend: Built with Next.js 15, React, TypeScript, and styled with Tailwind CSS and shadcn/ui components.
 
-🧪 Research-Ready Interface
-Designed a user-friendly platform where scientists can input variant positions and receive real-time predictions with confidence scores and visual output.
+Backend: Python + FastAPI server deployed on GPU (via Modal) for high-performance model inference.
 
-🚀 Deployment-Grade Architecture
-Frontend deployed on Vercel; backend hosted in a GPU-enabled cloud environment. Clean API separation, environment-safe deployment, and scalable design.
+💡 Intuitive Web Interface
+Simple, clean UI for entering variant data, viewing prediction results, and exploring scores with confidence.
+
+☁️ Cloud-Ready Deployment
+Fully deployable using Vercel (frontend) and Modal or other cloud providers (backend).
+
+🛠️ Tech Stack
+Layer	Tools & Libraries
+AI Model	Evo 2 (protein language model)
+Backend API	Python, FastAPI, Modal
+Frontend	Next.js 15, React, TypeScript, Tailwind, shadcn
+Deployment	Vercel (frontend), Modal Labs (backend)
